@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Inquiry</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>C</span>hi <span>C</span>ken</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="" data-after="Home">Home</a></li>
+            <li><a href="" data-after="Service">Overview</a></li>
+            <li><a href="" data-after="About">Prototype</a></li>
+            <li><a href="" data-after="Contact">SDGs</a></li>
+            <li><a href="" data-after="Contact">Inquiry</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>Can I <span></span></h1>
+        <h1>Help you? <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Con<span>t</span>act</h1>
+        <p>何かお困りですか？</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><ion-icon class="mail" name="mail-outline"></ion-icon></div>
+          <h2>Mail</h2>
+          <p>質問、感想、バグの報告などは下へスクロール</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><ion-icon name="logo-twitter"></ion-icon></div>
+          <h2>Twitter</h2>
+          <p>Twitterへの問い合わせは<a href="https://twitter.com/2JD29MI2iu61283">こちら</a>へ</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><ion-icon class="ins" name="logo-instagram"></ion-icon></div>
+          <h2>Instagram</h2>
+          <p>Instagramへの問い合わせは<a href="https://www.instagram.com/jdjhbfklslsk/?igshid=OGQ5ZDc2ODk2ZA%3D%3D">こちら</a>のDMへ</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Contact Form -->
+  <div class="contact-form">
+    <p class="title">質問、感想、バグの報告などはこちら</p>
+
+    <form action="https://api.staticforms.xyz/submit" method="post">
+        <input type="hidden" name="accessKey" value="1424d290-50e5-4d5c-931e-fc55d6eba800">
+        <input type="hidden" name="subject" value="Test">
+      <div class="item">
+        <label class="label">お名前</label>    <input type="text" class="inputs" name="name" placeholder="お名前"/>
+      </div>
+
+      <div class="item">
+        <label class="label">メールアドレス</label>
+        <input type="email" class="inputs" name="email" placeholder="メールアドレス" />
+      </div>
+      
+      <div class="item">
+        <label class="label">ご質問</label>
+        <textarea id="message" name="message" placeholder="内容(返信は入力していただいたメールアドレスへ行います。)"></textarea>
+      </div>
+      <input type="hidden" name="redirectTo" value="file:///C:/Users/064/vscode/maincontact/maincontact.html">
+        <div class="button-area">
+          <input type="submit" onclick="redirectToSite" value="送信" />
+          <input type="reset" value="記入内容をリセット" />
+        </div>
+      </div>
+    </form>
+</div>
+    <!-- End Contact Form -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>c</span>hi <span>c</span>ken</h1>
+      </div>
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.instagram.com/jdjhbfklslsk/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"><ion-icon name="logo-instagram"></ion-icon></a>
+        </div>
+        <div class="social-item">
+          <a href="https://twitter.com/2JD29MI2iu61283"><ion-icon name="logo-twitter"></ion-icon></a>
+        </div>
+      </div>
+      <p>Copyright © 2023 Chicken. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="main.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
